@@ -1,0 +1,36 @@
+# 凭据
+.env
+.env.*
+*.secret
+credentials.json
+secrets.yaml
+config.local.yaml
+
+# 下载的 PDF（体积大，不入 Git）
+downloads/
+pdfs/
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# 审核导出的临时文件
+approved_standards.csv
+rejected_standards.csv
+
+# 爬取的日志
+crawler.log
+*.log
